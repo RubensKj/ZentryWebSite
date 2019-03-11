@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    font-family: 'Open Sans',sans-serif;
+    -webkit-transition: -webkit-transform .3s ease;
+    transition: transform .3s ease;
+}
+
+.header-logo {
+    height: 50px;
+    width: 50px;
+    margin-top: 0px;
+}
+
+.container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
+    max-width: 1200px;
+}
+
+.headerDesktop .container {
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.headerDesktop {
+    background-color: #fff;
+    height: 60px;
+    display: block;
+    visibility: visible;
+    text-transform: uppercase;
+}
+
+.menu-all {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.content-menu {
+    border: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.content-menu li {
+    display: inline-flex;
+}
+
+/*aside {*/
+/*    margin-left: 540px;*/
+/*}*/
+
+.content-menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Open sans", sans-serif;
+    color: #747c81;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 20px 25px
+}
+
+.header-menu-item {
+    margin-top: 5px;
+}
+
+aside {
+    margin-left: 500px;
+}
+
+.header-menu {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    width: 650px;
+}
+
+.content-menu li a {
+    border-bottom: 3px solid transparent;
+}
+
+.content-menu .header-menu-item:hover, .content-menu .header-menu-item:active, .content-menu .header-menu-item:focus, .content-menu .header-menu-item:after {
+    border-bottom: 3px solid #45a6ff;
+    color: #45a6ff;
+    -webkit-transition: opacity .2s ease;
+    transition: all .3s ease;
+}
+
+.header-menu-item-login:hover {
+    position: relative;
+    text-decoration: none;
+    color: #9299a0;
+    transition: all 0.2s ease;
+}
+
+.header-menu-item-login::before {
+    content: '';
+    display: inline;
+    height: 20px;
+    border-left: 1px solid #e3e5ee;
+    margin-right: 40px;
+}
+
+.footer .footer-logo-principal {
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 70px;
+}
+
+.footer-link-image {
+    height: 25px;
+    width: 25px;
+    padding: 12px;
+}
+
+.footer {
+    display: flex;
+    background-color: #f1f1f1;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    border-top: 1.5px solid #e2e7eb;
+    /*border-top: 1.5px solid rgba(107,170,255,.2);*/
+    padding: 2em 0;
+    font-size: 70%;
+}
+
+.footer {
+    margin-top: 100px;
+    padding-top: 35px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
+    max-width: 1200px;
+}
+
+.footer-logo {
+    display: flex;
+    align-self: flex-start;
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+.footer-menu {
+    display: inline-flex;
+    margin-top: 10px;
+    list-style: none;
+}
+
+.footer-menu-item {
+    font-family: 'Open Sans',sans-serif;
+    color: #9898a6;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer-menu-item:hover {
+    color: #45a6ff;
+    transition: all .3s ease;
+}
+
+.footer-menu li {
+    padding: 20px;
+}
+
+.footer-menu-links {
+    margin-left: 29%;
+}
+
+.footer-menu-links {
+    display: inline-flex;
+    list-style: none;
+}
+
+
+

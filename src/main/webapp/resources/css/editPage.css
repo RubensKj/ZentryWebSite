@@ -1,0 +1,142 @@
+.containerEdit {
+    margin-top: 90px;
+}
+
+.containerEdit {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    width: 96%;
+    max-width: 1200px;
+}
+
+div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.in-progress__big-card, .in-progress__smaller-cards {
+    width: calc((160% - 25px) / 2);
+}
+
+.big-card {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    z-index: 0;
+    box-shadow: 4px 4px 20px 0 rgba(120, 135, 182, .1);
+    background-color: #fff;
+    border: solid 1px #eff1f9;
+    font-size: 14px;
+    line-height: 1.36;
+    color: #747c81;
+    transition: all .3s ease;
+    margin-bottom: 40px;
+    margin-top: 3em;
+    height: max-content;
+    text-align: center;
+    padding: 2em;
+    max-width: 750px;
+}
+
+.big-card__course-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+.card-title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    color: #747c81;
+    font-weight: 800;
+    letter-spacing: -.5px;
+    font-size: 2em;
+}
+
+form {
+    margin-top: 1em;
+    height: 100%;
+    background-color: #fff;
+    text-align: center;
+    padding: 3em;
+    max-width: 650px;
+}
+
+form .inputArea {
+    font-family: 'Roboto Slab', serif;
+    display: block;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    margin-bottom: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+    width: 100%;
+}
+
+form .SubmitBtn {
+    font-family: Raleway, serif;
+    color: #fff;
+    border: none;
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background-color: #45a6ff;
+    min-width: 160px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 1em;
+    padding: 0.76em 2em;
+    box-shadow: 0 4px 10px 0 rgba(23, 23, 23, .1);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+form .SubmitBtn:hover {
+    margin-left: 2px;
+    box-shadow: 0 3px 10px 0 rgba(38, 94, 142, .2);
+    transform: translateY(1px);
+    transition: all 0.2s ease;
+}
+
+form textarea {
+    display: block;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    margin-bottom: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+    width: 100%;
+    height: 200px;
+    max-width: 650px;
+    min-width: 206px;
+    min-height: 47px;
+    max-height: 800px;
+}
+
+form img {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    float: left;
+    max-width: 100%;
+    box-shadow: 10px 10px 20px 0 rgba(141, 147, 165, 0.5);
+}
+
+.currentImage {
+    margin-top: 10px;
+    color: #dbdbdb;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    float: left;
+    text-indent: 20px;
+}

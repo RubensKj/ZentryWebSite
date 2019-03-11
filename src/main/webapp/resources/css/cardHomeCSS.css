@@ -1,0 +1,187 @@
+.in-progress .containerDIVS  {
+    margin-top: 40px;
+}
+
+.containerDIVS {
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
+    max-width: 1200px;
+}
+
+div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headline {
+    color: #747c81;
+    font-size: 15px;
+    font-family: Raleway, serif;
+    text-transform: uppercase;
+    line-height: 1.36;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 225px;
+    margin-right: 200px;
+}
+
+.headline-title {
+    display: inline-block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.headline-Button {
+    display: initial;
+    padding: 0.76em 2em;
+    background-color: #45a6ff;
+    color: #FFF;
+    box-shadow: 0 4px 10px 0 rgba(23,23,23,.1);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    min-width: 110px;
+    text-decoration: none;
+    margin-left: 539px;
+    border-radius: 2px;
+}
+
+.headline-Button:hover {
+    margin-left: 537px;
+    box-shadow: 0 3px 10px 0 rgba(38,94,142,.2);
+    transform: translateY(2px);
+    transition: all 0.2s ease;
+}
+
+.headline-Button-edit {
+    display: inline-block;
+    padding: 0.76em 0.5em;
+    position: absolute;
+    margin-top: 15px;
+    text-align: center;
+    background-color: #45a6ff;
+    color: #FFF;
+    box-shadow: 0 4px 10px 0 rgba(23,23,23,.1);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    min-width: 110px;
+    text-decoration: none;
+    margin-left: 440px;
+    border-radius: 2px;
+}
+
+.headline-Button-edit:hover {
+    margin-left: 438px;
+    box-shadow: 0 3px 10px 0 rgba(38,94,142,.2);
+    transform: translateY(1px);
+    transition: all 0.2s ease;
+}
+
+.headline-Button-delete {
+    display: inline-block;
+    position: absolute;
+    margin-top: -52px;
+    padding: 1.05em 3.4em;
+    text-align: center;
+    background-color: #45a6ff;
+    color: #FFF;
+    box-shadow: 0 4px 10px 0 rgba(23,23,23,.1);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    min-width: 110px;
+    text-decoration: none;
+    margin-left: 645px;
+    border-radius: 2px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.headline-Button-delete:hover {
+    margin-left: 643px;
+    box-shadow: 0 3px 10px 0 rgba(38,94,142,.2);
+    transform: translateY(1px);
+    transition: all 0.2s ease;
+}
+
+.in-progress__big-card, .in-progress__smaller-cards {
+    width: calc((160% - 25px)/ 2);
+}
+
+.big-card {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    z-index: 0;
+    /*height: 100%;*/
+    box-shadow: 4px  4px 20px 0 rgba(120, 135, 182, .1);
+    background-color: #fff;
+    border: solid 1px #eff1f9;
+    font-size: 14px;
+    line-height: 1.36;
+    color: #747c81;
+    transition: all .3s ease;
+    margin-bottom: 40px;
+}
+
+.big-card:hover {
+    box-shadow: 0 1px 10px 0 rgba(38,94,142,.2);
+    transform: translateY(2px);
+    transition: all .3s ease;
+}
+
+.big-card__course-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+.card-title {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 15px 45px;
+    margin-top: 15px;
+    width: 858px;
+    margin-right: auto;
+    margin-left: auto;
+    text-transform: uppercase;
+    text-indent: 1.5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-text {
+    font-family: 'Roboto Slab', serif;
+    padding: 4px 46px 0 46px;
+    text-indent: 1.5em;
+    white-space: pre-line;
+}
+
+p img {
+    margin-top: 20px;
+    max-width: 856px;
+    margin-right: 856px
+}
+
+.card-img {
+    padding: 0 46px 0 46px;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.card-postdate {
+    padding: 18px 60px 0 46px;
+    text-align: justify;
+    margin-bottom: 18px;
+    font-family: 'Titillium Web', sans-serif;
+}
